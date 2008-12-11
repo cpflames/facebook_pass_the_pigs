@@ -9,7 +9,7 @@ $secret  = 'YOUR_SECRET';
  * in the code from http://apps.facebook.com/footprints/ to your framed page URL. */
 
 // The IP address of your database
-$db_ip = '10.0.0.0';           
+$db_ip = 'localhost';           
 
 $db_user = 'root';
 $db_pass = 'YOUR_DB_PASSWORD';
