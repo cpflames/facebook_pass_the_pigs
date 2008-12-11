@@ -34,10 +34,10 @@ if (isset($_POST['to'])) {
       if ($prints_id != $user) {
         echo 'Do you want to step on <fb:name uid="' . $prints_id . '"/>?';
         echo '<input type="hidden" name="to" value="' . $prints_id . '"/>';
-      } else {
-        echo '<br/>Step on a friend:';
-        echo '<fb:friend-selector idname="to"/>';
-      }
+      } else { ?>
+        <br/>Step on a friend:
+        <fb:friend-selector idname="to"/>
+      <?php }
 ?>
       <input value="step" type="submit"/>
     </form>
